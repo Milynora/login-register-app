@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.auth-card {
+    background: #fff;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 460px;
+    padding: 30px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.auth-header p {
+    color: #777;
+    font-size: 14px;
+}
+
+/* Buttons */
+.btn-login {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.btn-register {
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Links */
+.small-link,
+.text-link {
+    color: #764ba2;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.small-link:hover,
+.text-link:hover {
+    text-decoration: underline;
+}
+
+/* Divider */
+.divider {
+    text-align: center;
+    margin: 20px 0;
+    color: #999;
+    font-size: 14px;
+}
+
+/* Social login */
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.social-btn.fb { background: #1877f2; }
+.social-btn.google { background: #db4437; }
+.social-btn.apple { background: #000; }
+
+/* Invalid input */
+.is-invalid {
+    border-color: #dc3545;
+}
